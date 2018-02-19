@@ -1,0 +1,68 @@
+body {
+    font-family: "helvetica", sans-serif;
+    list-style-type: none;
+    background-color: lightgrey;
+}
+
+.logo {
+    width: 8em;
+    margin: 10px 0 0 10px;
+}
+
+header {
+    background-color: white;
+    border-radius: 0.5em;
+}
+
+article {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 1em 1em 0;
+}
+
+h2 {
+    font-size: 18px;
+    padding-left: 1em;
+}
+
+h3 {
+    margin-left: 1em;
+}
+
+p {
+    font-size: 1em;
+    padding-left: 1em;
+}
+
+.woning {
+    width: 300px;
+    margin: 10px;
+    border-radius: 0.5em;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    margin: 0 0 0 -13.5em;
+
+}
+
+button img:last-of-type:hover{
+  cursor:pointer;
+  transform: scale(1.1);
+}
+
+.pijl {
+    padding: 0.4em;
+    width: 1.5em;
+    background-color: lightyellow;
+    border-radius: 100%;
+}
+
+div {
+    display: none;
+}
+
+div.drop {
+    display: block;
+}
