@@ -1,0 +1,71 @@
+.carousel {
+    max-width: 1000px;
+}
+
+.vorige, .volgende {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: 2em;
+    height: 2em;
+    margin-top: -6em;
+    color: darkcyan;
+    font-size: 1.5em;
+
+    transition: 0.6s ease;
+    border-radius: 50%;
+}
+
+button {
+    background-color: white;
+    border: none;
+    border-radius: 50%
+}
+
+button:hover {
+    background-color: #FFE135;
+}
+
+.volgende {
+    right: 0;
+}
+
+.bolletjes {
+    text-align: center;
+    margin-top: 30em;
+}
+
+.bol1, .bol2, .bol3 {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: darkcyan;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: darkgray;
+}
+
+img {
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    transition: all .5s;
+}
+
+.foto2, .foto3 {
+    opacity: 0;
+}
+
+.show {
+    opacity: 100;
+}
+
+.hide {
+    opacity: 0;
+}
