@@ -1,0 +1,199 @@
+body {
+    background-color: #222222;
+    color: white;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+article {
+    display: block;
+    background-color: #3c3c3c;
+    padding: .5em 1em 15em 1em;
+    border-radius: .5em;
+    max-width: 40em;
+    margin: auto;
+    margin-top: 1em;
+}
+
+
+p:nth-of-type(1) {
+    margin: -15em 0em 0 -2em;
+    padding-left: 15em;
+}
+
+article>img {
+    width: 10em;
+    height: 15em;
+}
+
+article a {
+    float: right;
+    margin-top: 8em;
+}
+
+.title {
+    text-align: center;
+}
+
+header {
+    background-color: #3c3c3c;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: fixed;
+    z-index: 999999;
+}
+
+.iets {
+    margin-top: 5em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+/* --------------------------DROPDOWN-------------------------- */
+
+a {
+    background-color: transparent;
+    border: none;
+    transition: transform 0.4s;
+}
+
+a img:last-of-type:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.4s;
+    box-shadow: 0 .3em 1em 0 rgba(0, 0, 0, 0.24), 0 1em 100em 0 rgba(0, 0, 0, 0.19);
+}
+
+a img:last-of-type:active {
+    transform: translateY(.0001em);
+}
+
+a img {
+    padding: 0.4em;
+    width: 1.8em;
+    background-color: orange;
+    border-radius: 100%;
+}
+
+footer {
+    display: none;
+    animation-name: mooi;
+    margin-top: 20em;
+}
+
+footer>p {
+    margin: -10em 0em 0 -2em;
+    padding-left: 15em;
+}
+
+footer>p:nth-of-type(2) {
+    margin-top: 3em;
+    margin-bottom: -5em;
+}
+
+@keyframes mooi {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+footer.drop {
+    display: block;
+    animation-name: mooi;
+    animation-duration: 2.5s;
+}
+
+
+/* --------------------------CAROUSEL-------------------------- */
+
+.carousel {
+    width: 100%;
+}
+
+.vorige, .volgende {
+    cursor: pointer;
+    position: absolute;
+    width: 2em;
+    height: 2em;
+    margin-top: 5em;
+    color: white;
+    font-size: 1.3em;
+    transition: 0.6s ease;
+    border-radius: 50%;
+}
+
+button {
+    background-color: orange;
+    border: none;
+    border-radius: 50%;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.4s;
+    box-shadow: 0 .3em 1em 0 rgba(0, 0, 0, 0.24), 0 1em 100em 0 rgba(0, 0, 0, 0.19);
+}
+
+button:active {
+    transform: translateY(.0001em);
+}
+
+.volgende {
+    right: 0;
+    margin-right: 0.5em;
+}
+
+.bolletjes {
+    text-align: center;
+    margin-top: 23em;
+    margin-bottom: 3em;
+}
+
+.bol1, .bol2, .bol3 {
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: grey;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: orange;
+}
+
+div img {
+    top: 11.5em;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    transition: 0.3s ease;
+}
+
+.foto2, .foto3 {
+    opacity: 0;
+}
+
+.show {
+    opacity: 100;
+}
+
+.hide {
+    opacity: 0;
+}
