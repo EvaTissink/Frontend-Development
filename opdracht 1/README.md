@@ -31,6 +31,6 @@ Ook als er op de button geklikt wordt geeft de button feedback dat er geklikt wo
 
 Hier heb ik de dropdown (met hulp) werkend gekregen door middel van een for loop. Elk article kan nu zijn eigen details uit laten klappen.
 
-[Versie 4] (https://evatissink.github.io/Frontend-voor-designers/opdracht%201/versie%204/)
+[Versie 4](https://evatissink.github.io/Frontend-voor-designers/opdracht%201/versie%204/)
 
 
