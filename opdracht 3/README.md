@@ -2,25 +2,25 @@
 
 Dit is de basis code die nog niet helemaal werkt zoals het zou moeten werken, de dropdown werkt niet want doordat de elementen via js geschreven zijn kunnen ze niet geselecteerd worden.
 
-[Versie 1](https://github.com/EvaTissink/Frontend-voor-designers/tree/master/opdracht%203/versie%201)
+[Versie 1](https://evatissink.github.io/Frontend-voor-designers/opdracht%203/versie%201/)
 
 ## Versie 2
 
 Hier heb ik geprobeerd om de dropdown met een variabele te fixen, alleen ik heb geen idee hoe ik er nu verder mee moet.
 
-[Versie 2](https://github.com/EvaTissink/Frontend-voor-designers/tree/master/opdracht%203/versie%202)
+[Versie 2](https://evatissink.github.io/Frontend-voor-designers/opdracht%203/versie%202/)
 
 ## Versie 3
 
 Bij deze versie heb ik even de dropdown laten zitten, want ik kwam er zelf niet uit. Inplaats daarvan ben ik mij meer gaan focussen op het stijlen van de pagina. Ik heb een header toegevoegd waar de titel van de pagina staat zodat mensen meteen weten hoe de site heet.
 
-[Versie 3](https://github.com/EvaTissink/Frontend-voor-designers/tree/master/opdracht%203/versie%203)
+[Versie 3](https://evatissink.github.io/Frontend-voor-designers/opdracht%203/versie%203/)
 
 ## Versie 4
 
 Ik heb met hulp de dropdown gefixt, de informatie die uitgeklapt wordt kan wat beter worden vormgegeven. Bijvoorbeeld voor de datum wanneer de film was uitgebracht kan staan wat die datum betekent en er mag nog wat meer informatie ingeladen worden.
 
-[Versie 4](https://github.com/EvaTissink/Frontend-voor-designers/tree/master/opdracht%203/versie%204)
+[Versie 4](https://evatissink.github.io/Frontend-voor-designers/opdracht%203/versie%204/)
 
 ## Versie 5
 
@@ -30,4 +30,4 @@ Ook zijn de indicators van het carousel klikbaar, dit wordt ook aangeduid met ee
 
 En als laatste heb ik een ander font gekozen die wat beter bij een filmwebsite past.
 
-[Versie 5](https://github.com/EvaTissink/Frontend-voor-designers/tree/master/opdracht%203/versie%205)
+[Versie 5](https://evatissink.github.io/Frontend-voor-designers/opdracht%203/versie%205/)
