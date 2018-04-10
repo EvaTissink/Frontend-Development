@@ -3,7 +3,8 @@
 var header = document.querySelector('header');
 var section = document.querySelector('section');
 
-var requestURL = '../json/main.json';
+//var requestURL = 'http://dennistel.nl/movies';
+var requestURL = 'https://tomwesterhof.github.io/Frontend-voor-Designers/Opdracht%203/v3/movies.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
@@ -23,6 +24,10 @@ request.onload = function () {
         var myPara4 = document.createElement('p');
 
         var myPara5 = document.createElement('p');
+        var myPara6 = document.createElement('p');
+        var myPara7 = document.createElement('p');
+        var myPara8 = document.createElement('p');
+        var myPara9 = document.createElement('p');
 
         //buttons
         var myLink = document.createElement('a');
@@ -33,9 +38,13 @@ request.onload = function () {
         myPara1.textContent = films[i].simple_plot;
         myPara2.textContent = films[i].plot;
         myPara3.textContent = 'Release date: ' + films[i].release_date;
-        myPara4.textContent = 'Director: ' + films[i].directors.name;
+        myPara4.textContent = 'Director: ' + films[i].directors[0].name;
 
-        myPara5.textContent = 'Actors: ' + films[i].actors[i].actor_name;
+        myPara5.textContent = 'Actors: ';
+        myPara6.textContent = films[i].actors[0].actor_name;
+        myPara7.textContent = films[i].actors[1].actor_name;
+        myPara8.textContent = films[i].actors[2].actor_name;
+        myPara9.textContent = films[i].actors[3].actor_name;
 
         imgLink.src = 'https://www.secondcloset.com/static/media/whiteArrowDown.44f28ff5.png';
 
@@ -65,6 +74,10 @@ request.onload = function () {
         myFooter.appendChild(myPara4);
 
         myFooter.appendChild(myPara5);
+        myFooter.appendChild(myPara6);
+        myFooter.appendChild(myPara7);
+        myFooter.appendChild(myPara8);
+        myFooter.appendChild(myPara9);
 
         myLink.appendChild(imgLink);
         section.appendChild(myArticle);

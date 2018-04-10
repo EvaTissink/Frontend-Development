@@ -30,6 +30,11 @@ p:nth-of-type(3) {
     padding-bottom: 2em;
 }
 
+p:nth-of-type(4) {
+    margin-bottom: .5em;
+
+}
+
 article>img {
     width: 10em;
     height: 15em;
@@ -68,6 +73,10 @@ h2 {
 
 article h1 {
     font-size: 1.6em
+}
+
+article:last-of-type {
+    margin-bottom: 2em;
 }
 
 
@@ -112,8 +121,6 @@ footer>p {
     margin: 0 0 0 -2em;
     padding-left: 15em;
 }
-
-footer>p:nth-of-type(1) {}
 
 footer>p:nth-of-type(2) {
     margin-top: 2em;
