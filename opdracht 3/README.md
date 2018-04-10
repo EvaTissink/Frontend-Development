@@ -31,3 +31,9 @@ Ook zijn de indicators van het carousel klikbaar, dit wordt ook aangeduid met ee
 En als laatste heb ik een ander font gekozen die wat beter bij een filmwebsite past.
 
 [Versie 5](https://evatissink.github.io/Frontend-voor-designers/opdracht%203/versie%205/)
+
+
+## 
+Omdat GitHub geen JSON files met http ondersteund, hier nogmaals de definitieve versie werkend:
+
+[Versie 5](http://evatissink.nl/)
