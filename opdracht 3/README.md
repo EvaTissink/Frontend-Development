@@ -24,6 +24,7 @@ Hierbij het ik de buttons voor bij het carousel zo ontworpen dat het precies doe
 Alleen bij de articles heb ik wat hierachie toegepast: de titel van de film staat bovenaan in een groter en dikker font dan de informatie die naast de cover van de film staat. Zo is de titel duidelijk zichtbaar en kan de gebruiker de titel meteen herkennen.
 
 >[Versie 1](https://evatissink.github.io/Frontend-voor-designers/opdracht%203/versie%201/)
+
 >[Versie 2](https://evatissink.github.io/Frontend-voor-designers/opdracht%203/versie%202/)
 
 
