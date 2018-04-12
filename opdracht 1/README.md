@@ -7,8 +7,11 @@ Ik ben begonnen met een basis code te schrijven, deze zit in de eerste versie. H
 
 Bij deze versie was het niet heel duidelijk dat de button een button is, ook werden de details erg abrupt uitgeklapt wat er niet heel fijn uit ziet.
 
-### Versie 2
+<br><br><br>
+
 <img align="right" src="images/versie2.PNG" width="300">
+
+### Versie 2
 
 Bij deze versie heb ik een schaduw hover aan de button toegevoegd zodat het duidelijker is dat dit een button is en dat het ook wat moet doen, hoe de details uitgeklapt worden is nog niet veranderd.
 
