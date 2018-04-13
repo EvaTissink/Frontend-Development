@@ -86,7 +86,6 @@ Bij de extra informatie in de dropdown heb ik voor sommige informatie elementen 
 
 >[Versie 5](https://evatissink.github.io/Frontend-voor-designers/opdracht%203/versie%205/)
 
-
 ## 
 Omdat GitHub geen JSON files met http ondersteund, hier nogmaals de definitieve versie werkend mocht de github versie niet werken:
 
