@@ -15,7 +15,7 @@ Qua vormgeving is er nog niks veranderd, wel heb ik geprobeerd de dropdown te fi
 
 Voor deze princicpe heb ik nog niet heel veel gedaan, wat ik zou kunnen toevoegen is een loading state voor als de api wat langer bezig is met het laden van alle informatie. 
 
-*Principe 8: Provide a natural next step*
+*Principe 9: Appearance follows behavior
 
 Hierbij het ik de buttons voor bij het carousel zo ontworpen dat het precies doet wat de gebruiker zal verwachten, de linker gaan een foto terug en de rechter een foto verder. Ook zorgt de progress indicator onder het carousel ervoor dat de gebruiker weet waar hij is met het carousel en weet hoeveel afbeeldingen erin staan.
 
@@ -52,7 +52,7 @@ Wel mag er nog wat meer informatie in de dropdown komen en ervoor zorgen dat die
 
 ### Principes
 
-*Principe 8: Provide a natural next step*
+*Principe 9: Appearance follows behavior*
 
 Nu als je op de knop in een article klikt komt de informatie met een kleine animatie tevoorschijn, wat nog beter zou zijn is als de knop 180 graden omdraait zodat de gebruiker weet dat je zo ook weer de informatie kan inklappen.
 
@@ -71,7 +71,7 @@ Het font van de eerdere versies werkte toch niet zo goed dus ik heb een font gek
 
 ### Principles
 
-*Principe 8: Provide a natural next step*
+*Principe 9: Appearance follows behavior*
 
 <img align="right" src="images/versie6.PNG" width="300">
 
