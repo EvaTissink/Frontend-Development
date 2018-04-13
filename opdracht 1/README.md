@@ -7,7 +7,7 @@ Dit is de basis code met nog geen animatie of uitgebreide css. Ik heb nog niet m
 
 Bij deze versie was het niet heel duidelijk dat de button een button is, ook werden de details erg abrupt uitgeklapt wat er niet heel fijn uit ziet.
 
-<br><br>
+<br><br><br><br>
 
 <img align="right" src="images/versie2.PNG" width="300">
 
